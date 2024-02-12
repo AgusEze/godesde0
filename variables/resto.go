@@ -27,3 +27,6 @@ func ConvertiraTexto(numero int) (bool, string) {
 	texto = strconv.Itoa(numero)
 	return true, texto
 }
+
+// (parametro) (Devuelve)
+// El orden importa
