@@ -1,8 +1,6 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/AgusEze/godesde0/ejercicios"
 )
 
@@ -24,8 +22,13 @@ func main() {
 		fmt.Println("Esto es Darwin")
 	default:
 		fmt.Printf("%s \n", os)
-	}*/
+	}
 	numero, texto := ejercicios.ConvertiraNumero("dos")
 	fmt.Println(numero)
 	fmt.Println(texto)
+
+	teclado.IngresoNumeros()*/
+
+	/*iteraciones.Iterar()*/
+	ejercicios.IngreseNumero()
 }
